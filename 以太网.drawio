@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="kDZHEY98CPxBmsnX0RyO">
+    <mxGraphModel dx="1106" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FFF9C4;strokeColor=#FBC02D;fontColor=light-dark(#333333,#cccccc);verticalAlign=top;fontSize=18;" value="对应观测工具" vertex="1">
+          <mxGeometry height="530" width="198" x="580" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FFF9C4;strokeColor=#FBC02D;fontColor=light-dark(#333333,#cccccc);verticalAlign=top;fontSize=18;" value="核心性能指标" vertex="1">
+          <mxGeometry height="520" width="214" x="20" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#E8EAF6;strokeColor=#3F51B5;fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="带宽&#xa;链路上限" vertex="1">
+          <mxGeometry height="55" width="160" x="50" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#E8EAF6;strokeColor=#3F51B5;fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="吞吐量&#xa;实际传输量" vertex="1">
+          <mxGeometry height="56" width="160" x="49" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#E8EAF6;strokeColor=#3F51B5;fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="PPS&#xa;每秒包数" vertex="1">
+          <mxGeometry height="50" width="160" x="50" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#E8EAF6;strokeColor=#3F51B5;fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="延时&#xa;RTT/握手延时" vertex="1">
+          <mxGeometry height="60" width="160" x="50" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-23" edge="1" parent="1" source="sMHeHhgb71GjtcSyKFAt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=18;" target="sMHeHhgb71GjtcSyKFAt-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="168" y="480" />
+              <mxPoint x="684" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#E8EAF6;strokeColor=#3F51B5;fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="丢包率/重传率&#xa;稳定性" vertex="1">
+          <mxGeometry height="54" width="164" x="45" y="536" as="geometry" />
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#E8EAF6;strokeColor=#3F51B5;fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="ethtool&#xa;查带宽" vertex="1">
+          <mxGeometry height="61.5" width="140" x="613" y="161.75" as="geometry" />
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#E8EAF6;strokeColor=#3F51B5;fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="tcpdump&#xa;吞吐量/PPS" vertex="1">
+          <mxGeometry height="50" width="141.5" x="613" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#E8EAF6;strokeColor=#3F51B5;fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="ping&#xa;延时/连通性" vertex="1">
+          <mxGeometry height="60" width="141.5" x="614.5" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#E8EAF6;strokeColor=#3F51B5;fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="ss/netstat&#xa;协议栈统计" vertex="1">
+          <mxGeometry height="54" width="140" x="615.25" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#E8EAF6;strokeColor=#3F51B5;fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="ip/ifconfig&#xa;丢包/错误" vertex="1">
+          <mxGeometry height="50" width="136" x="618.5" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-13" edge="1" parent="1" source="sMHeHhgb71GjtcSyKFAt-3" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=18;" target="sMHeHhgb71GjtcSyKFAt-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-14" edge="1" parent="1" source="sMHeHhgb71GjtcSyKFAt-4" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.07;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=18;" target="sMHeHhgb71GjtcSyKFAt-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-15" edge="1" parent="1" source="sMHeHhgb71GjtcSyKFAt-5" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.07;entryY=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=18;" target="sMHeHhgb71GjtcSyKFAt-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-16" edge="1" parent="1" source="sMHeHhgb71GjtcSyKFAt-6" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=18;" target="sMHeHhgb71GjtcSyKFAt-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-17" edge="1" parent="1" source="sMHeHhgb71GjtcSyKFAt-7" style="startArrow=none;endArrow=block;exitX=0.9;exitY=0;entryX=0;entryY=0.5;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=18;" target="sMHeHhgb71GjtcSyKFAt-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sMHeHhgb71GjtcSyKFAt-18" edge="1" parent="1" source="sMHeHhgb71GjtcSyKFAt-7" style="startArrow=none;endArrow=block;exitX=0.9;exitY=1;entryX=0;entryY=0.5;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=18;" target="sMHeHhgb71GjtcSyKFAt-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
